@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1696cdf61c33f4a4d86e882617a77206, type: 3}
+  m_Name: Felicia
+  m_EditorClassIdentifier: 
+  regions:
+  - name: Deep Sea
+    noiseHeight: 0.05
+    myColor: {r: 0.07186719, g: 0.37866694, b: 0.8018868, a: 0}
+    finalHeight: -1
+    isWalkable: 0
+    isWater: 1
+    isGrass: 0
+    isMountain: 0
+    isSand: 0
+  - name: Sea
+    noiseHeight: 0.2
+    myColor: {r: 0.07355818, g: 0.5422539, b: 0.8207547, a: 0}
+    finalHeight: -0.5
+    isWalkable: 0
+    isWater: 1
+    isGrass: 0
+    isMountain: 0
+    isSand: 0
+  - name: Sand
+    noiseHeight: 0.25
+    myColor: {r: 0.8679245, g: 0.687353, b: 0.20879315, a: 0}
+    finalHeight: 0
+    isWalkable: 1
+    isWater: 0
+    isGrass: 0
+    isMountain: 0
+    isSand: 1
+  - name: Grass
+    noiseHeight: 0.8
+    myColor: {r: 0.08627451, g: 0.54901963, b: 0.14901961, a: 0}
+    finalHeight: 0
+    isWalkable: 1
+    isWater: 0
+    isGrass: 1
+    isMountain: 0
+    isSand: 0
+  - name: Dark Grass
+    noiseHeight: 0.87
+    myColor: {r: 0.27127138, g: 0.41509432, b: 0.23300105, a: 0}
+    finalHeight: 0
+    isWalkable: 1
+    isWater: 0
+    isGrass: 1
+    isMountain: 0
+    isSand: 0
+  - name: Mountain
+    noiseHeight: 0.9
+    myColor: {r: 0.6037736, g: 0.6027349, b: 0.6009256, a: 0}
+    finalHeight: 2
+    isWalkable: 0
+    isWater: 0
+    isGrass: 0
+    isMountain: 1
+    isSand: 0
+  - name: Snow
+    noiseHeight: 2
+    myColor: {r: 0.8396226, g: 0.82774115, b: 0.82774115, a: 0}
+    finalHeight: 2.5
+    isWalkable: 0
+    isWater: 0
+    isGrass: 0
+    isMountain: 1
+    isSand: 0

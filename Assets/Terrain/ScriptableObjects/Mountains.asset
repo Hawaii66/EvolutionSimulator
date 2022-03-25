@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1696cdf61c33f4a4d86e882617a77206, type: 3}
+  m_Name: Mountains
+  m_EditorClassIdentifier: 
+  regions:
+  - name: DeepWater
+    noiseHeight: 0.1
+    myColor: {r: 0.10588236, g: 0.427451, b: 0.5764706, a: 0}
+    finalHeight: -2
+    isWalkable: 0
+    isWater: 1
+    isGrass: 0
+    isMountain: 0
+    isSand: 0
+  - name: Water
+    noiseHeight: 0.2
+    myColor: {r: 0.10980393, g: 0.5803922, b: 0.8000001, a: 0}
+    finalHeight: -1
+    isWalkable: 0
+    isWater: 1
+    isGrass: 0
+    isMountain: 0
+    isSand: 0
+  - name: Sand
+    noiseHeight: 0.25
+    myColor: {r: 0.79215693, g: 0.75294125, b: 0.47450984, a: 0}
+    finalHeight: 0
+    isWalkable: 1
+    isWater: 0
+    isGrass: 0
+    isMountain: 0
+    isSand: 1
+  - name: Grass
+    noiseHeight: 0.3
+    myColor: {r: 0.08627451, g: 0.54901963, b: 0.14901961, a: 0}
+    finalHeight: 0
+    isWalkable: 1
+    isWater: 0
+    isGrass: 1
+    isMountain: 0
+    isSand: 0
+  - name: DarkGrass
+    noiseHeight: 0.35
+    myColor: {r: 0.054901965, g: 0.32156864, b: 0.09019608, a: 0}
+    finalHeight: 0
+    isWalkable: 1
+    isWater: 0
+    isGrass: 1
+    isMountain: 0
+    isSand: 0
+  - name: Mountain
+    noiseHeight: 0.5
+    myColor: {r: 0.85098046, g: 0.5137255, b: 0.09019608, a: 0}
+    finalHeight: 1.5
+    isWalkable: 0
+    isWater: 0
+    isGrass: 0
+    isMountain: 1
+    isSand: 0
+  - name: HighMountain
+    noiseHeight: 0.75
+    myColor: {r: 0.5764706, g: 0.36862746, b: 0.10588236, a: 0}
+    finalHeight: 5
+    isWalkable: 0
+    isWater: 0
+    isGrass: 0
+    isMountain: 1
+    isSand: 0
+  - name: Snow
+    noiseHeight: 2
+    myColor: {r: 0.87843144, g: 0.87843144, b: 0.87843144, a: 0}
+    finalHeight: 6
+    isWalkable: 0
+    isWater: 0
+    isGrass: 0
+    isMountain: 1
+    isSand: 0
